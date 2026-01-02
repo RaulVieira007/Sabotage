@@ -30,7 +30,7 @@ export default function HistoriaModal({ topico, onClose }: Props) {
             alt={topico.titulo}
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
         </div>
 
         {/* TEXTO */}
@@ -49,7 +49,7 @@ export default function HistoriaModal({ topico, onClose }: Props) {
             {topico.titulo}
           </h2>
 
-          <div className="space-y-5 mb-8">
+          <div className="space-y-6 mb-10">
             {topico.texto.map((paragrafo, index) => (
               <p
                 key={index}
